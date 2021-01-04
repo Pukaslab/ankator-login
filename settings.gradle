@@ -1,0 +1,5 @@
+rootProject.name = 'login'
+
+include ':common'
+project(':common').projectDir = file('../common')
+
